@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title></title>
+	
+</head>
+<body>
+	<div class="form-container">
+		<form id="instagram-form" action="https://api.instagram.com/v1/users/search" method="GET">
+			<input type="text" name="q" placeholder="Write username here" autocomplete="off">
+			<input type="hidden" name="client_id" value="61f8b631abd34732a3bcd8c73d0d73a9">
+			<button>Search User</button>
+		</form>
+
+	<ul id="instagram-users" class="instagram-users">
+	</ul>
+		
+	</div>
+
+		
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>

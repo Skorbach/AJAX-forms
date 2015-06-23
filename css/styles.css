@@ -1,0 +1,22 @@
+html,body{
+	margin:0;
+	background:#d8d8d8;
+}
+
+.form-container{
+	width: 400px;
+	margin:0 auto;
+	padding:40px;
+	background: white;
+}
+
+input{
+	padding:20px;
+	width:80%;
+	font-size: 1em;
+}
+
+button{
+
+}
+
